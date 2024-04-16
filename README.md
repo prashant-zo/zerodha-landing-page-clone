@@ -1,5 +1,3 @@
-# zerodha-landing-page-clone
-
 # Zerodha Landing Page Clone
 
 Welcome to my Zerodha landing page clone project! This project aims to replicate the landing page of Zerodha, an online stock trading platform, using basic HTML and CSS.
