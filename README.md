@@ -11,7 +11,7 @@ In this project, I've created a simple landing page that mimics the layout and d
 - HTML
 - CSS
 
-![Demo Image](demo.png)
+![Demo](Demo.png)
 
 
 
