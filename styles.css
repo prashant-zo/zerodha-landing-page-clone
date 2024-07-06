@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1.25rem 10.625rem; /* 20px 170px */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  max-height: 1.0625rem; /* 17px */
+  width: 130px;
+  margin-top: 5%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 1.25rem; /* 20px */
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+  color: #666;
+  padding: 1.25rem; /* 20px */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.zerodha-main {
+  max-width: 750px;
+  width: 100%;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.main-content h1 {
+  padding-top: 3.75rem; /* 60px */
+  font-size: 2.75rem;
+  line-height: 1.25;
+  font-weight: 500;
+  color: #424242;
+}
+
+.main-content h2 {
+  padding-top: 0.75rem; /* 12px */
+  font-weight: 50;
+  color: #424242;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.875rem; /* 30px */
+}
+
+.signup-button {
+  background-color: #387ed1;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  padding: 0.625rem 2.0625rem; /* 10px 33px */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: black;
+}
